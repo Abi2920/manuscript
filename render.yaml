@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: history-form-server
+    runtime: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        scope: run
+      - key: JWT_SECRET
+        scope: run
+      - key: NODE_ENV
+        value: production
+      - key: CLIENT_URL
+        value: https://your-frontend-url.com
