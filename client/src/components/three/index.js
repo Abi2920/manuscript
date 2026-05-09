@@ -1,0 +1,10 @@
+export { default as DustParticles } from './DustParticles';
+export { default as AncientColumns } from './AncientColumns';
+export { default as FloatingManuscript } from './FloatingManuscript';
+export { default as ParchmentWave } from './ParchmentWave';
+export { default as AntiqueOrrery } from './AntiqueOrrery';
+export { default as CandleFlicker } from './CandleFlicker';
+export { default as WaxSeal } from './WaxSeal';
+export { default as QuillPen } from './QuillPen';
+export { default as AgedScroll } from './AgedScroll';
+export { default as HistoricalBackground } from './HistoricalBackground';
